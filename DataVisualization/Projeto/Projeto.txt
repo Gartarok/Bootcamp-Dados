@@ -1,0 +1,25 @@
+Descritivo da base
+Campo Arquivo	Campo Hive	Tipo	Descrição
+date	Data	date	quando jogo ocorreu
+home_teamName	equipe_mandante	string	equipe da casa
+away_teamName	equipe_visitante	string	equipe visitante
+home_scoreHome	gol_equipe_mandante	int	pontuação equipe da casa
+away_scoreAway	gol_equipe_visitante	int	pontuação equipe visitante
+tournamentName	torneio	string	torneio
+cityCity	cidade	string	onde o jogo aconteceu
+countryCountry	pais	string	onde a partida ocorreu
+neutralTRUE	fora_pais	boolean	se o jogo ocorreu fora do país da equipe da casa, FALSE caso contrário
+
+Demanda
+
+Anexar um arquivo contento:
+
+1 - Uma análise que ilustre a quantidade total e porcentagem de mandantes vencedores, perdedores e empates.
+
+2 - Uma análise que elenque os países cujas seleções tiveram menos derrotas (e quantidade delas).
+
+3 - Uma análise que mostre a quantidade de jogos feita por países selecionados em um filtro ao longo dos anos.
+
+4 - Caso todos estes jogos fossem parte de um único campeonato de pontos corridos, onde uma vitória vale três pontos, um empate vale um e uma derrota zero, quais seriam os três primeiros colocados?
+
+5 - Um mapa indicando quantidade de jogos realizados em cada país.
